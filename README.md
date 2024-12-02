@@ -12,14 +12,16 @@
 <img src="./assets/architecture.png" />
 
 ## Why PagePilot AI?
+
 PagePilot AI chrome extension addresses a serious workflow inefficiency in web browsing: the context switching between websites and AI tools. Currently, users must copy text from their browser, switch tabs to access AI tools, paste the content, wait for processing, and switch back to continue browsing. This back-and-forth process breaks concentration and slows down Chrome users.
 
 The PagePilot chrome extension integrates AI capabilities directly into Chrome's native right-click menu (or Context Menu), allowing users to process text instantly without leaving their current webpage. Whether you're a student researching papers, a professional analyzing content, or a regular user, the extension’s AI Actions eliminates tab switching keeping your focus on the current task.
 The key problems we solve:
-* Eliminated context switching between browser tabs and AI tools
-* Saved time through instant text processing
-* Improved focus by maintaining users in their current context
-* Simplified access to AI tools during browsing
+
+- Eliminated context switching between browser tabs and AI tools
+- Saved time through instant text processing
+- Improved focus by maintaining users in their current context
+- Simplified access to AI tools during browsing
 
 ## Technical implementation. Chrome extension
 
@@ -37,7 +39,7 @@ The key problems we solve:
 │   └── hooks/             # React hooks
 │   ├── components/        # React UI components
 │   ├── context/           # React context (storage)
-│   ├── services/          # Service layer 
+│   ├── services/          # Service layer
 │   ├── types/             # TypeScript types
 │   └── utils/             # Utility functions
 ├── vite.config.ts         # Vite configuration
@@ -45,24 +47,28 @@ The key problems we solve:
 ```
 
 ### Gemini Nano service
-<img src="https://github.com/user-attachments/assets/26b41465-d9ce-47f2-bea0-b5bb3d7aba9c" />
+
+<img src="./assets/gem-nano-service-1.png" />
 
 ### Gemini Nano service. Model orchestration
-<img src="https://github.com/user-attachments/assets/8c5a66b6-b7d7-46e5-beaf-b82e5d17eb2b" />
+
+<img src="./assets/gem-nano-service-2.png" />
 
 ### Gemini AI Request service
-<img src="https://github.com/user-attachments/assets/b18e1191-ec8e-43ba-8862-b0599ac9048d" />
+
+<img src="./assets/gem-service.png" />
 
 ## Technical implementation. Next.js app
 
 ### Gemini AI API (For Gemini Flash 8B, Flash and Pro models)
-![Screenshot 2024-12-02 at 15 28 44](https://github.com/user-attachments/assets/a9685ac2-132b-485b-ba53-af9d0144ac3d)
+
+<img src="./assets/nextjs.png" />
 
 ## Examples
 
-<img src="./assets/eg-1-1.png" width="700" />
+<img src="./assets/eg-5-1.png" width="700" />
 <p>|</p>
-<img src="./assets/eg-1-2.png" width="700" />
+<img src="./assets/eg-5-2.png" width="700" />
 
 ## Technologies Used
 
